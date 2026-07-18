@@ -1,0 +1,47 @@
+{
+    "model_name": "Counterfeit Indian Currency Detector",
+    "architecture": "MobileNetV3-Large",
+    "framework": "PyTorch",
+    "version": "1.0.0",
+    "input_size": 224,
+    "input_channels": 3,
+    "classes": [
+        "REAL",
+        "FAKE"
+    ],
+    "label_mapping": {
+        "0": "REAL",
+        "1": "FAKE"
+    },
+    "normalization": {
+        "mean": [
+            0.485,
+            0.456,
+            0.406
+        ],
+        "std": [
+            0.229,
+            0.224,
+            0.225
+        ]
+    },
+    "training": {
+        "backbone": "MobileNetV3-Large",
+        "pretrained": true,
+        "optimizer": "AdamW",
+        "loss_function": "CrossEntropyLoss",
+        "scheduler": "CosineAnnealingLR",
+        "epochs": 9,
+        "best_validation_f1": 0.9775
+    },
+    "test_metrics": {
+        "accuracy": 0.9696699375557538,
+        "precision": 0.9431524547803618,
+        "recall": 0.9681697612732095,
+        "f1_score": 0.9554973821989529,
+        "roc_auc": 0.9958857419925273
+    },
+    "model_file": "best_model.pth",
+    "model_size": "14 MB",
+    "created_by": "Sai Shiva"
+}

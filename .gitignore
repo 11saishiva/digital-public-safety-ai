@@ -1,0 +1,20 @@
+__pycache__/
+*.py[cod]
+.env
+.env.local
+__pycache__/
+*.pyc
+node_modules/
+.venv/
+.safetensors
+# ML model weights
+backend/storage/models/**/*.pth
+backend/storage/models/**/*.pt
+backend/storage/models/**/*.bin
+backend/storage/models/**/*.safetensors
+
+# Uploaded files
+backend/storage/uploads/
+
+# Database
+backend/storage/**/*.db

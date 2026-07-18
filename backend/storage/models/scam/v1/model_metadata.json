@@ -1,0 +1,22 @@
+{
+    "model_name": "Scam Message Detector",
+    "architecture": "DistilBERT",
+    "framework": "PyTorch + Transformers",
+    "version": "1.0.0",
+    "classes": [
+        "SAFE",
+        "SCAM"
+    ],
+    "label_mapping": {
+        "0": "SAFE",
+        "1": "SCAM"
+    },
+    "max_sequence_length": 256,
+    "test_metrics": {
+        "accuracy": 0.9914,
+        "precision": 0.9921,
+        "recall": 0.9906,
+        "f1_score": 0.9913,
+        "roc_auc": 0.9996
+    }
+}
