@@ -367,57 +367,6 @@ Output
 
 ---
 
-# Screenshots
-
-## Dashboard
-
-_Add screenshot here_
-
----
-
-## Counterfeit Detection
-
-_Add screenshot here_
-
----
-
-## Scam Detection
-
-_Add screenshot here_
-
----
-
-## Reports
-
-_Add screenshot here_
-
----
-
-## Report Details
-
-_Add screenshot here_
-
----
-
-# Future Enhancements
-
-- User authentication
-- Role-based access control
-- PDF report export
-- Advanced analytics
-- Multi-language scam detection
-- Mobile application
-- Cloud deployment
-- Model version management
-- Additional fraud detection modules
-
----
-
-# License
-
-This project is intended for educational, research, and hackathon purposes.
-
----
 
 # Acknowledgements
 
